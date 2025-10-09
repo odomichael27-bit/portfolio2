@@ -1,0 +1,27 @@
+.sidebar ul li a {
+  text-decoration: none;
+  color: rgb(211, 209, 209);
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.sidebar ul li {
+  padding: 25px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(185, 185, 185);
+  box-shadow: insex 2px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul li:hover a {
+  color: black
+}

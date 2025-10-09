@@ -1,0 +1,222 @@
+/* body css */
+.background-img {
+  background-image: url("../images/image1.jpg");
+  width: auto;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.background-img h3 span {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 26px;
+}
+
+/* project-cont */
+.project-cont {
+  margin: 20px 16px 0px 30px;
+}
+
+.img-project-cont {
+  height: 200px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  z-index: -1;
+}
+
+.img-project-cont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-project-cont .prison1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.img-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 4px;
+}
+
+.project {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+}
+
+/* about */
+
+.about-cont {
+  margin: 20px 30px;
+}
+
+.about-cont p {
+  line-height: 27px;
+}
+
+.about {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(226, 225, 225);
+}
+
+/* contact */
+.contact-friends {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  margin-right: 15px;
+
+}
+
+.profile-cont {
+  height: 200px;
+}
+
+.profile-cont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-info .author {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.contact-info .title {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contact-info .details {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.contact-info button {
+  width: 100%;
+  border: none;
+  padding: 6px 0px;
+}
+
+.contact-info p {
+  margin-left: 6px;
+}
+
+.contact-cont {
+  margin: 20px 16px 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 4px;
+}
+
+/* 
+contactUs */
+.contactUs-cont {
+  margin: 20px 30px;
+}
+
+.contactUs-cont input {
+  display: block;
+  font-size: 18px;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid rgb(196, 196, 196);
+  padding-left: 15px;
+}
+
+.contactUs-cont input::placeholder {
+  font-size: 16px;
+}
+
+.contactUs-cont p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.contactUs-cont .contact {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.contactUs-cont button {
+  color: white;
+  background-color: black;
+  padding: 8px 14px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Location img */
+
+.location-img {
+  width: auto;
+  height: auto;
+  margin: 0px 30px;
+}
+
+.location-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  box-sizing: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: white;
+  margin-left: 8px;
+}
+
+.sidebar {
+  background-color: rgb(73, 73, 73);
+  position: fixed;
+  left: 0;
+  top: 40px;
+  bottom: 0;
+  width: 0px;
+  z-index: 100px;
+  overflow: hidden;
+}
+
+.body {
+  padding-left: 0;
+}

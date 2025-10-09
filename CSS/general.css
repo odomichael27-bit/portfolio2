@@ -1,0 +1,29 @@
+:root {
+  --first-text-color: white;
+  --background-color: black;
+  --second-background-color: rgb(14, 14, 14);
+  --main-color: rgb(9, 207, 115);
+}
+
+
+html {
+  font-size: 65.5%;
+  /* overflow: hidden; */
+  color: var(--first-text-color);
+}
+
+* {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: arial;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background-color);
+  padding-top: 50px;
+}
