@@ -1,0 +1,138 @@
+@media (max-width:1000px) {
+  .homePage-cont {
+    flex-direction: column;
+  }
+
+  .homePage button {
+    margin-bottom: 30px;
+  }
+
+  .display-product {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .homePage h1 {
+    font-size: 37px;
+    /* width: 600px; */
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width:800px) {
+  .navHeader-cont {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 100px;
+    width: 0px;
+    overflow-x: hidden;
+    background-color: white;
+    flex-direction: column;
+    justify-content: start;
+    /* padding-left: 30px; */
+    transition: width 1s;
+  }
+
+  .navHeader-cont a {
+    padding: 20px 10px;
+    width: 100%;
+    transition: background-color 0.5s;
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+
+  .navHeader-cont a:hover {
+    background-color: gray;
+
+  }
+
+
+  .shop-details .fa-bars {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width:650px) {
+  .display-product {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-email {
+    width: 200px;
+    font-size: 16px;
+  }
+
+  .contact #subscribe {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+
+  footer {
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer-copy h4 {
+    font-size: 15px;
+  }
+
+
+  .footer-link a {
+    padding-right: 5px;
+    font-size: 12px;
+  }
+
+
+  .rightSide {
+    padding-left: 20px;
+  }
+
+  .logo {
+    padding: 8px 28px 14px 28px;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+
+  .smartShop {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:400px) {
+
+  .display-product {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-email {
+    margin-bottom: 15px;
+  }
+
+  .footer-link a {
+    padding-right: 5px;
+    font-size: 10px;
+
+  }
+
+  .rightSide {
+    margin-right: 20px;
+    max-width: 160px;
+    padding-left: 10px;
+  }
+
+
+  .logo {
+    padding: 5px 24px 11px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+
+  /* .rightSide {
+    margin-right: 40px;
+    max-width: 180px;
+  } */
+
+
+}

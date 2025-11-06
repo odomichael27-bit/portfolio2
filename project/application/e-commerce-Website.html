@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application</title>
+  <link rel="stylesheet" href="./CSS/application.css">
+  <link rel="stylesheet" href="./CSS/media.css">
+  <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+
+
+  <header>
+
+    <div class=" shop-details">
+      <div class="smartShop">
+        SmartShop
+      </div>
+      <i class="fa fa-bars js-bars"></i>
+    </div>
+    <!-- for the Home, About, Contact etc-->
+    <div class="navHeader-cont">
+      <a href="#home">Home</a>
+      <a href="#product">Products</a>
+      <a href="#review">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="rightSide">
+
+      <div class="cart" id="cart">
+        <a href="">🛒</a>
+        <span class="cartCount"></span>
+      </div>
+
+      <div class="logo">
+        🌙
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <!-- home -->
+    <section class="homePage-cont" id="home">
+      <div class="homePage">
+        <h1 class="">
+          Upgrade Your Lifestyle With SmartShop
+        </h1>
+        <p>
+          Discover the best tech gadget designed for mordern living.
+        </p>
+
+        <a href="#product"><button> Shop Now</button></a>
+      </div>
+
+      <div class="img-cont">
+        <img src="./img/hall.jpg" alt="Shopping mall" class="img">
+      </div>
+    </section>
+
+
+    <!-- Product -->
+    <section class="product" id="product">
+      <h2>
+        Featured Products
+      </h2>
+
+      <div class="display-product">
+
+        <div class="product-cont">
+          <div class="img-cont1">
+            <img src="./img/colePamer.jpg" alt="Chelsea Shirt">
+          </div>
+
+
+          <div class="product-details">
+            <h3>
+              Chelsea Shirt
+            </h3>
+            <p class="priceCents">
+              $15.00
+            </p>
+            <button class="add-to-cart js-add-to-cart">Add to Cart</button>
+          </div>
+
+        </div>
+
+        <div class="product-cont">
+          <div class="img-cont1">
+            <img src="./img/snukerStick.jpg" alt="Chelsea Shirt">
+          </div>
+
+          <div class="product-details">
+            <h3>
+              Chelsea Shirt
+            </h3>
+            <p class="priceCents">
+              $15.00
+            </p>
+            <button class="add-to-cart js-add-to-cart">Add to Cart</button>
+          </div>
+
+        </div>
+        <div class="product-cont">
+          <div class="img-cont1">
+            <img src="./img/slackline.jpg" alt="Chelsea Shirt">
+          </div>
+
+          <div class="product-details">
+            <h3>
+              Chelsea Shirt
+            </h3>
+            <p class="priceCents">
+              $15.00
+            </p>
+            <button class="add-to-cart js-add-to-cart">Add to Cart</button>
+          </div>
+
+        </div>
+        <div class="product-cont">
+          <div class="img-cont1">
+            <img src="./img/footbalShirt.jpg" alt="Chelsea Shirt">
+          </div>
+
+          <div class="product-details">
+            <h3>
+              Chelsea Shirt
+            </h3>
+            <p class="priceCents">
+              $15.00
+            </p>
+            <button class="add-to-cart js-add-to-cart">Add to Cart</button>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- Review -->
+
+    <section class="review" id="review">
+      <h2>
+        What Our Customers Say
+      </h2>
+      <div class="review-display">
+
+        <div class="review-cont">
+          <div class="img-cont-review">
+            <img src="./img/slackline.jpg" alt="">
+          </div>
+          <div class="review-details">
+            <p>"Amazing products and fast delivery"</p>
+            <h3>
+              -Engr. Kelechi Odo
+            </h3>
+          </div>
+        </div>
+
+        <div class="review-cont">
+          <div class="img-cont-review">
+            <img src="./img/footbalShirt.jpg" alt="">
+          </div>
+          <div class="review-details">
+            <p>"Amazing products and fast delivery"</p>
+            <h3>
+              -Engr. Kelechi Odo
+            </h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contacts -->
+
+    <section class="contact" id="contact">
+      <div class="contact-details">
+        <h2>Join Our Newsletter</h2>
+        <p>Get exclusive deals and straight to your inbox</p>
+      </div>
+
+      <form id="form" unsubmit="submitF()">
+        <input type="email" placeholder="Enter your Email" class="contact-email" id="email">
+
+        <input type="Submit" value="Subscribe" id="subscribe">
+        <!-- <button id="subscribe">Subscribe</button> -->
+      </form>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+
+  <footer>
+    <div class="footer-copy">
+      <h4>&copy; 2025 DEGOODMAN. All rights reserved. </h4>
+    </div>
+    <div class="footer-link">
+      <a href="">Facebook <i class="fa fa-facebook"></i></a> <span>|</span>
+      <a href="">Twitter <i class="fa fa-twitter"></i></a>
+      <span>|</span>
+      <a href="">WhatsApp <i class="fa fa-whatsapp"></i></a>
+      <span>|</span>
+      <a href="">Instagram <i class="fa fa-instagram"></i></a>
+    </div>
+  </footer>
+  <script type="module" src="./JS/application.js"></script>
+</body>
+
+</html>
