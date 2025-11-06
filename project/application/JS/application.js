@@ -38,7 +38,7 @@ document.querySelector('#form').addEventListener('submit', () => {
     return false
   }
 
-  alert('Registration successful');
+  alert('Subscribed');
   return true
 })
 
@@ -64,4 +64,5 @@ bars.addEventListener('click', () => {
     console.log(navHeader)
   }
 })
+
 
