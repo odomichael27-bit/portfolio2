@@ -225,7 +225,7 @@ img {
   column-gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-shrink: 0;
 }
 
@@ -241,7 +241,7 @@ img {
   object-position: center;
 }
 
-.review-cont {
+.review-display .review-cont {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -266,6 +266,7 @@ img {
 .review-details p {
   font-size: 18px;
   margin-bottom: 20px;
+  width: 320px;
 }
 
 .review-details h3 {
