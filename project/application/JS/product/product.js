@@ -2,37 +2,37 @@ const product = [
   {
     id: '1',
     name: 'Chelsea Shirt',
-    priceCent: 1500,
+    priceCent: 15.00,
     img: './img/colePamer.jpg',
   },
   {
     id: '2',
     name: 'Manchester City Shirt',
-    priceCent: 1500,
+    priceCent: 15.00,
     img: './img/footbalShirt.jpg',
   },
   {
     id: '3',
     name: 'Flybold Slackline',
-    priceCent: 1500,
+    priceCent: 10.00,
     img: './img/slackline.jpg',
   },
   {
     id: '4',
     name: 'Snuker Stick',
-    priceCent: 1500,
+    priceCent: 25.00,
     img: './img/snukerStick.jpg',
   },
   {
     id: '5',
     name: 'Chelsea Shirt',
-    priceCent: 1500,
+    priceCent: 15.00,
     img: './img/colePamer.jpg',
   },
   {
     id: '6',
     name: 'Flybold Slackline',
-    priceCent: 1500,
+    priceCent: 10.00,
     img: './img/slackline.jpg',
   }
 ]
@@ -65,6 +65,7 @@ export function renderProductHTML() {
 
   return productHTML;
 }
+
 
 
 
