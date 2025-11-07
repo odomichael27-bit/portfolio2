@@ -1,12 +1,29 @@
+import { renderComment } from "./product/comment/comment.js";
+import { renderProductHTML } from "./product/product.js";
+import { breakPoint } from "./util/breakPoint.js";
+import { emailValidation } from "./util/emailvalid.js";
 
-let count = 0;
 
-document.querySelectorAll('.js-add-to-cart').forEach((cartButton) => {
-  cartButton.addEventListener('click', () => {
-    count++;
-    document.querySelector('.cartCount').innerHTML = count;
+let productDisplay = renderProductHTML();
+// todisplay the product on the page
+document.querySelector('.js-display-product').innerHTML = productDisplay;
+
+let addCart = document.querySelectorAll('.add-to-cart');
+
+let cartCount = 0;
+addCart.forEach((cart) => {
+  cart.addEventListener('click', () => {
+    cartCount++;
+    console.log(cartCount);
+    document.querySelector('.js-cartCount').innerHTML = cartCount;
   })
 })
+
+// to display the comment section
+
+let comment = renderComment();
+
+document.querySelector('.js-review-display').innerHTML = comment;
 
 
 
@@ -24,45 +41,11 @@ email.addEventListener('input', () => {
   }
 })
 
+let emailValid = document.querySelector('#form');
 
-document.querySelector('#form').addEventListener('submit', () => {
-  let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-  let emailf = email.value.trim()
-  if (emailf === '') {
-    alert('Please, fill in the empty space');
-    return false
-  }
-
-  if (!emailf.match(emailPattern)) {
-    alert('Provide a valid Email')
-    return false
-  }
-
-  alert('Subscribed');
-  return true
-})
+emailValidation(emailValid);
 
 
-let bars = document.querySelector('.js-bars');
+breakPoint();
 
-let navHeader = document.querySelector('.navHeader-cont');
-
-bars.addEventListener('click', () => {
-
-  console.log('hello')
-
-  if (!bars.classList.contains('bars')) {
-    console.log('hello2')
-    navHeader.style.width = '200px';
-    navHeader.style.paddingLeft = '30px';
-    bars.classList.add('bars');
-    console.log(navHeader)
-  } else {
-    navHeader.style.width = '0px';
-    navHeader.style.paddingLeft = '0px';
-    bars.classList.remove('bars');
-    console.log(navHeader)
-  }
-})
-
-
+renderComment();

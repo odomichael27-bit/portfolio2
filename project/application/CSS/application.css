@@ -230,8 +230,8 @@ img {
 }
 
 .img-cont-review {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
 }
 
 .img-cont-review img {
@@ -246,7 +246,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .review {

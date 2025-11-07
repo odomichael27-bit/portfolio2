@@ -18,7 +18,13 @@
   }
 }
 
+
 @media (max-width:800px) {
+  .review-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .navHeader-cont {
     position: fixed;
     left: 0;
@@ -51,11 +57,26 @@
     display: block;
     cursor: pointer;
   }
+
+  .product-detail {
+    min-height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .product-details h3 {
+    font-size: 20px;
+  }
+
+
 }
 
 @media (max-width:650px) {
   .display-product {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .review-display {
+    grid-template-columns: 1fr;
   }
 
   .contact-email {
@@ -100,7 +121,13 @@
   }
 }
 
+
 @media (max-width:400px) {
+
+  .review-details p {
+    font-size: 16px;
+    width: 300px;
+  }
 
   .display-product {
     grid-template-columns: 1fr;
@@ -129,10 +156,6 @@
     font-size: 18px;
   }
 
-  /* .rightSide {
-    margin-right: 40px;
-    max-width: 180px;
-  } */
 
 
 }
