@@ -1,38 +1,40 @@
+import { formatCurrency } from "../util/money.js";
+
 const product = [
   {
     id: '1',
     name: 'Chelsea Shirt',
-    priceCent: 15.00,
+    priceCent: 1500,
     img: './img/colePamer.jpg',
   },
   {
     id: '2',
     name: 'Manchester City Shirt',
-    priceCent: 15.00,
+    priceCent: 1500,
     img: './img/footbalShirt.jpg',
   },
   {
     id: '3',
     name: 'Flybold Slackline',
-    priceCent: 10.00,
+    priceCent: 2500,
     img: './img/slackline.jpg',
   },
   {
     id: '4',
     name: 'Snuker Stick',
-    priceCent: 25.00,
+    priceCent: 500,
     img: './img/snukerStick.jpg',
   },
   {
     id: '5',
     name: 'Chelsea Shirt',
-    priceCent: 15.00,
+    priceCent: 1500,
     img: './img/colePamer.jpg',
   },
   {
     id: '6',
     name: 'Flybold Slackline',
-    priceCent: 10.00,
+    priceCent: 2500,
     img: './img/slackline.jpg',
   }
 ]
@@ -52,7 +54,7 @@ export function renderProductHTML() {
                 ${productItem.name}
               </h3>
               <p class="priceCents">
-                $${productItem.priceCent}
+                $${formatCurrency(productItem.priceCent)}
               </p>
             </div>
             <button class="add-to-cart">Add to Cart</button>
@@ -65,7 +67,6 @@ export function renderProductHTML() {
 
   return productHTML;
 }
-
 
 
 

@@ -4,6 +4,7 @@ import { breakPoint } from "./util/breakPoint.js";
 import { emailValidation } from "./util/emailvalid.js";
 
 
+
 let productDisplay = renderProductHTML();
 // todisplay the product on the page
 document.querySelector('.js-display-product').innerHTML = productDisplay;
@@ -49,3 +50,4 @@ emailValidation(emailValid);
 breakPoint();
 
 renderComment();
+

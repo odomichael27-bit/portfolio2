@@ -111,9 +111,12 @@
   }
 
   .logo {
-    padding: 8px 28px 14px 28px;
-    border-radius: 6px;
-    font-size: 18px;
+    width: 80px;
+    height: 50;
+  }
+
+  .logo img {
+    border-radius: 25px;
   }
 
   .smartShop {
@@ -151,11 +154,13 @@
 
 
   .logo {
-    padding: 5px 24px 11px 24px;
-    border-radius: 6px;
-    font-size: 18px;
+    width: 60px;
+    height: 40px;
   }
 
+  .logo img {
+    border-radius: 20px;
+  }
 
 
 }
