@@ -1,0 +1,152 @@
+@media (max-width:900px) {
+  header {
+    padding: 0 20px;
+  }
+
+  /* 
+  header nav ul {
+    margin-right: 40px;
+  } */
+}
+
+@media (max-width: 800px) {
+  .authorDetails h1 {
+    font-size: 28px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  header .nav.active {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    width: 150px;
+    display: flex;
+    margin-right: 0px;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: start;
+    background-color: var(--text-color);
+    transition: width 1s;
+  }
+
+  /* 
+  .nav {
+    width: 100%;
+    transition: background-color 0.5s;
+  } */
+
+  header .nav.active a {
+    color: black;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  header .nav.active a:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+  }
+
+  header .nav.active a {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .navBar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .home {
+    height: 450px;
+  }
+
+  .home h2 {
+    font-size: 34px;
+    letter-spacing: 0.5px;
+
+  }
+
+  .home h3 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  .home {
+    height: 500px;
+  }
+
+  .home h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+
+  }
+
+
+  .home button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  .travel-details .travel-cont {
+    width: 300px;
+  }
+
+  .display {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .button button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  footer {
+    height: 60px;
+  }
+
+  footer .footer {
+    font-size: 16px;
+  }
+
+
+}
+
+@media (max-width: 420px) {
+
+  .home h2 {
+    font-size: 25px;
+  }
+
+  .home h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:360px) {
+  .home h2 {
+    font-size: 20px;
+  }
+
+  .home h3 {
+    font-size: 14px;
+  }
+
+
+  .travel-details .travel-cont {
+    width: 250px;
+  }
+}

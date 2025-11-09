@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./CSS/travel.css">
+  <link rel="stylesheet" href="./CSS/media.css">
+  <link rel="stylesheet" href="../../font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+  <!-- header -->
+
+  <header>
+    <div class="authorDetails">
+      <div class="logo">
+        <img src="./img/logo.jpg" alt="Degoodman">
+      </div>
+      <h1>
+        Travel Frenzy
+      </h1>
+    </div>
+    <div class="nav-cont">
+      <div class="nav">
+        <a href="#home" class="a">Home</a>
+        <a href="#destination" class="a">Destinations</a>
+        <a href="#booking" class="a">Booking</a>
+        <a href="#contact" class="a">Contact</a>
+      </div>
+      <div class="navBar">
+        <i class="fa fa-bars js-bar"></i>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+
+  <main>
+    <section class="home" id="home">
+      <h2>Your Adventure Awaits </h2>
+
+      <h3>
+        Discover amazing places with the best deals
+      </h3>
+
+      <button id="activate">Book a Trip</button>
+    </section>
+
+    <section class="travel-details">
+      <div class="travel-cont">
+        <h3>Book Your Trip</h3>
+        <form id="form">
+          <label for="">
+            Destination:
+          </label>
+          <select name="state" id="state">
+            <option value="Enugu">Enugu</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Abia">Abia</option>
+            <option value="Imo">Imo</option>
+            <option value="Anambra">Anambra</option>
+          </select>
+
+          <label for="">
+            Number of Ticket(s):
+          </label>
+          <input type="number" placeholder="Enter number of ticket(s)" id="ticket">
+        </form>
+
+        <div class="button">
+          <button class="cal" id="cal">Calculate Price</button>
+        </div>
+
+        <div class="display">
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer">
+      &copy; 2025 DEGOODMAN <span>|</span> All Right Reserved
+    </div>
+  </footer>
+
+  <script type="module" src="./JS/travel.js"></script>
+</body>
+
+</html>
