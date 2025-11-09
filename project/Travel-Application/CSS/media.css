@@ -114,10 +114,6 @@
     font-size: 16px;
   }
 
-  footer {
-    height: 60px;
-  }
-
   footer .footer {
     font-size: 16px;
   }
@@ -149,4 +145,5 @@
   .travel-details .travel-cont {
     width: 250px;
   }
+
 }
