@@ -402,6 +402,18 @@
   .login-cont {
     top: 90px;
   }
+
+  .prison {
+    height: 850px;
+  }
+
+  .signup .line-cont h2 {
+    margin-left: 18px;
+  }
+
+  .signup .line-cont div {
+    flex: .3;
+  }
 }
 
 
@@ -465,6 +477,7 @@
 
 
 
+
   footer {
     height: 50px;
     font-size: 14px;
@@ -487,6 +500,10 @@
     font-size: 16px;
   }
 
+  .signup .line-cont h2 {
+    margin-left: 10px;
+  }
+
   .signup {
     width: 270px;
   }
@@ -496,20 +513,6 @@
     border-radius: 6px;
   }
 
-  .prison {
-    height: 850px;
-  }
-
-  /* .signup-cont {
-    top: 75px;
-  }
-
-  .login-cont {
-    top: 75px;
-  } */
-  .signup .line-cont div {
-    flex: .3;
-  }
 
   .signup select {
     font-size: 11px;
