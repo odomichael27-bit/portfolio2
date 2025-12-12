@@ -263,6 +263,9 @@
     font-size: 14px;
   }
 
+  .signup-cont {
+    top: 30px;
+  }
 
   .signup h3 {
     font-size: 15px;
@@ -331,13 +334,21 @@
   }
 
   .prison {
-    height: 750px;
+    height: 800px;
   }
 
   .home h1 {
     font-size: 35px;
   }
 
+
+  .signup-cont {
+    top: 80px;
+  }
+
+  .login-cont {
+    top: 80px;
+  }
 
   .home p {
     color: var(--text-main-color);
@@ -385,9 +396,12 @@
   }
 
   .signup-cont {
-    top: 35px;
+    top: 90px;
   }
 
+  .login-cont {
+    top: 90px;
+  }
 }
 
 
@@ -450,6 +464,7 @@
   }
 
 
+
   footer {
     height: 50px;
     font-size: 14px;
@@ -476,18 +491,32 @@
     width: 270px;
   }
 
-  .prison {
-    height: 790px;
-  }
-
-  .signup-cont {
-    top: 40px;
-  }
-
-
   .login {
     width: 270px;
     border-radius: 6px;
+  }
+
+  .prison {
+    height: 850px;
+  }
+
+  /* .signup-cont {
+    top: 75px;
+  }
+
+  .login-cont {
+    top: 75px;
+  } */
+  .signup .line-cont div {
+    flex: .3;
+  }
+
+  .signup select {
+    font-size: 11px;
+  }
+
+  .signup label {
+    font-size: 11px;
   }
 
   footer {
