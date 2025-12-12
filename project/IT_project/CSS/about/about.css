@@ -1,0 +1,79 @@
+.about-cont {
+  margin: 30px 40px 80px 40px;
+}
+
+.company-cont {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about {
+  flex: 2;
+}
+
+.about h1 {
+  font-size: 65px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: var(--main-color);
+}
+
+.about2-img {
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.about2-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 25px;
+}
+
+.about-details h2 {
+  text-transform: capitalize;
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.about-details p {
+  color: var(--main-color);
+}
+
+.tools {
+  margin-top: 20px;
+}
+
+.toolsWrapper {
+  display: flex;
+  border: 2px;
+  align-items: center;
+}
+
+.toolsSwipe {
+  flex: 1;
+  height: 100px;
+  overflow: hidden;
+}
+
+.toolsSwipe img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

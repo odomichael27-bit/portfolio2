@@ -1,0 +1,497 @@
+@media (max-width:1220px) {
+  .nav-left h3 {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  .home h1 {
+    font-size: 65px;
+  }
+}
+
+@media (max-width:1230px) {
+  .home h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width:1068px) {
+  .home h1 {
+    font-size: 55px;
+  }
+
+  .signup {
+    width: 380px;
+
+  }
+
+}
+
+@media (max-width:999px) {
+
+  nav {
+    flex: 1.2;
+  }
+
+  .home h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media (max-width:855px) {
+  ul .btn {
+    display: block;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  nav {
+    justify-content: end;
+  }
+
+  nav .menu {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 65px;
+    right: -20px;
+    background-color: var(--main-color);
+    width: 0;
+    overflow: hidden;
+    z-index: 60px;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .nav-list.active {
+    width: 150px;
+    overflow: hidden;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  ul .btn {
+    font-size: 20px;
+  }
+
+  .nav-list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+  }
+
+  .nav-list ul li {
+    padding: 20px;
+    margin-left: 0;
+    cursor: pointer;
+    transition: background-color 0.24s ease-in;
+  }
+
+  .nav-list ul li:hover {
+    background-color: var(--text-main-color);
+  }
+
+  .home .login-btn {
+    border-radius: 4px;
+    font-size: 15px;
+  }
+
+  .home .signup-btn {
+    border-radius: 4px;
+    font-size: 15px;
+
+  }
+
+
+  .signup {
+    width: 370px;
+  }
+
+  .signup h2 {
+    font-size: 28px;
+  }
+
+  .signup .input1 {
+    padding: 8px;
+    font-weight: 500;
+  }
+
+  .signup select {
+    padding: 6px 0px;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .signup label {
+    font-size: 15px;
+  }
+
+
+  .signup h3 {
+    font-size: 17px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+  }
+
+  .btn-submit,
+  .login-lnk {
+    margin-top: 16px;
+  }
+
+
+  .btn-submit button {
+    padding: 8px 13px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+
+  .login h2 {
+    font-size: 30px;
+  }
+
+  .login form input {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .login button {
+    padding: 6px 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+}
+
+@media (max-width:650px) {
+
+  .nav-list {
+    top: 53px;
+    right: -31px;
+  }
+
+  .nav-list.active {
+    width: 140px;
+    overflow: hidden;
+  }
+
+  ul li a {
+    font-size: 18px;
+  }
+
+  ul .btn {
+    font-size: 18px;
+  }
+
+
+  .nav-list ul li {
+    padding: 10px;
+  }
+
+  header {
+    height: 80px;
+    padding: 0 30px;
+
+  }
+
+  .logo {
+    width: 50px;
+    height: 40px;
+  }
+
+  .nav-left {
+    flex: 1.5;
+  }
+
+  .nav-left h3 {
+    font-size: 22px;
+  }
+
+
+  nav {
+    flex: 1;
+  }
+
+  nav .menu {
+    font-size: 26px;
+  }
+
+  .prison {
+    height: 750px;
+  }
+
+  .home h1 {
+    font-size: 40px;
+  }
+
+
+
+  .signup {
+    width: 350px;
+  }
+
+  .signup h2 {
+    font-size: 20px;
+  }
+
+  .signup .input1 {
+    padding: 6px;
+    font-size: 16px;
+  }
+
+  .signup select {
+    padding: 6px 0px;
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  .signup label {
+    font-size: 14px;
+  }
+
+
+  .signup h3 {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+  }
+
+  .signup .line-cont h2 {
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+
+  .signup .line-cont div {
+    flex: .6;
+  }
+
+  .btn-submit,
+  .login-lnk {
+    margin-top: 14px;
+  }
+
+
+  .btn-submit button {
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+}
+
+
+@media (max-width:560px) {
+  .nav-list {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease-in-out;
+  }
+
+  .nav-list.active {
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  ul .btn {
+    font-size: 20px;
+  }
+
+  .nav-list ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: stretch; */
+
+    align-items: stretch;
+
+  }
+
+  .prison {
+    height: 750px;
+  }
+
+  .home h1 {
+    font-size: 35px;
+  }
+
+
+  .home p {
+    color: var(--text-main-color);
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  footer {
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 490px) {
+  .nav-left h3 {
+    font-size: 20px;
+  }
+
+  nav {
+    flex: 0.6;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home .login-btn {
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .home .signup-btn {
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+
+  }
+
+
+  .signup {
+    width: 300px;
+  }
+
+  .signup-cont {
+    top: 35px;
+  }
+
+}
+
+
+
+@media (max-width: 400px) {
+  body {
+    padding-top: 69px;
+  }
+
+  ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul li a {
+    font-size: 14px;
+  }
+
+  ul .btn {
+    font-size: 16px;
+  }
+
+  header {
+    height: 70px;
+    padding: 0 15px;
+  }
+
+  .nav-list {
+    top: 68px;
+  }
+
+  .nav-left h3 {
+    font-size: 18px;
+  }
+
+  nav {
+    flex: 0.4;
+  }
+
+  nav .menu {
+    font-size: 18px;
+  }
+
+  .home h1 {
+    font-size: 25px;
+  }
+
+  .home .login-btn {
+    padding: 6px 8px;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+
+  .home .signup-btn {
+    padding: 6px 8px;
+    border-radius: 2px;
+    font-size: 14px;
+
+  }
+
+
+  footer {
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:330px) {
+
+  .nav-left h3 {
+    font-size: 16px;
+  }
+
+  nav {
+    flex: 0.3;
+  }
+
+
+
+  nav .menu {
+    font-size: 16px;
+  }
+
+  .signup {
+    width: 270px;
+  }
+
+  .prison {
+    height: 790px;
+  }
+
+  .signup-cont {
+    top: 40px;
+  }
+
+
+  .login {
+    width: 270px;
+    border-radius: 6px;
+  }
+
+  footer {
+    height: 50px;
+    font-size: 13px;
+  }
+}
