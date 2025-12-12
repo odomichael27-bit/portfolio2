@@ -16,6 +16,12 @@ let hedHomeEl = document.querySelector('.js-header-home');
 let signupEl = document.querySelector('.js-signup');
 let signLinkLogin = document.querySelector('.signA');
 
+// nav
+
+let navBar = document.querySelector('.fa-bars');
+let navList = document.querySelector('.nav-list');
+
+
 
 signLinkLogin.addEventListener('click', () => {
   getLogin();
@@ -28,8 +34,8 @@ signLinkLogin.addEventListener('click', () => {
 
 hedBtnEls.forEach((hedBtnEl) => {
   hedBtnEl.addEventListener('click', () => {
-
     let hedBtnElIn = hedBtnEl.innerHTML;
+    navList.classList.remove('active')
     if (hedBtnElIn === 'Login') {
       getLogin();
       removeSignup();
@@ -103,10 +109,6 @@ function removeSignup() {
 }
 
 
-// nav
-
-let navBar = document.querySelector('.fa-bars');
-let navList = document.querySelector('.nav-list');
 
 navBar.addEventListener('click', () => {
   removeNarBar();
